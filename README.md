@@ -25,7 +25,8 @@ Do -->
     $ python3 a3s_krypta.py " ~/path-to/.bin "
 ------------------------------------------------------------------------------------------
 
-# In the /tmp directory, to convert the generated new.loda.cpp file to .dll, run command
+# In the /tmp directory, to convert the generated new.loda.cpp file to .dll, 
+# run command with a c++ complier ' x86_64-w64-mingw32-g++ ' in the /tmp directory
     $ x86_64-w64-mingw32-g++ new.loda.cpp --shared --static -o ProService.dll  
   # Ignore the error, run the command again with the argument " -fpermissive "
               $ x86_64-w64-mingw32-g++ new.loda.cpp --shared --static -o custom_file_name.dll -fpermissive
