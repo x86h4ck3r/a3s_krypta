@@ -31,6 +31,7 @@ Do -->
   # Ignore the error, run the command again with the argument " -fpermissive "
               $ x86_64-w64-mingw32-g++ new.loda.cpp --shared --static -o custom_file_name.dll -fpermissive
 
-  # your output .dll will be in the /tmp directory.
+  # Your output .dll will be in the /tmp directory.
 
+# ENJOY :)
 
