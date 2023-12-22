@@ -1,3 +1,7 @@
+DISCLIAMER!!
+THIS SCRIPT IS FOR EDUCATIONAL PURPOSES ONLY!. DON'T USE ON UNAUTHORIZED SYSTEMS . 
+=======================================
+
 # a3s_krypta
 Dynamic AES cypter, for .bin files --> Generates '.cpp ' file. /* { was created for use with HAVOC C2 } */
 
