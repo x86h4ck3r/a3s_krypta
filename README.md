@@ -9,16 +9,17 @@ Dynamic AES cypter, for .bin files --> Generates '.cpp ' file. /* { was created 
 =========================================================================================
     If you are hit with an error, like this 
 -----------------------------------------------------------------------------------------
-    Exception has occurred: ModuleNotFoundError
+  Exception has occurred: ModuleNotFoundError
 No module named 'Crypto'
   File "C:\Users\VictorMomodu\Desktop\sandbox\scripts\a3s_krypta.py", line 2, in <module>
     from Crypto.Cipher import AES
 ModuleNotFoundError: No module named 'Crypto'
 ------------------------------------------------------------------------------------------
 Do --> 
-  $ pip install pycryptodome
-  and 
-  $ pip install cryptography
+------------------------------------------------------------------------------------------
+     $ pip install pycryptodome
+   
+     $ pip install cryptography
 -----------------------------------------------------------------------------------------
   # run command to krypt .bin file
     $ python3 a3s_krypta.py " ~/path-to/.bin "
