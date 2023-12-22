@@ -6,6 +6,24 @@ Dynamic AES cypter, for .bin files --> Generates '.cpp ' file. /* { was created 
   # run command to krypt .bin file
     $ python3 a3s_krypta.py " ~/path-to/.bin "
 
+=========================================================================================
+    If you are hit with an error, like this 
+-----------------------------------------------------------------------------------------
+    Exception has occurred: ModuleNotFoundError
+No module named 'Crypto'
+  File "C:\Users\VictorMomodu\Desktop\sandbox\scripts\a3s_krypta.py", line 2, in <module>
+    from Crypto.Cipher import AES
+ModuleNotFoundError: No module named 'Crypto'
+------------------------------------------------------------------------------------------
+Do --> 
+  $ pip install pycryptodome
+  and 
+  $ pip install cryptography
+-----------------------------------------------------------------------------------------
+  # run command to krypt .bin file
+    $ python3 a3s_krypta.py " ~/path-to/.bin "
+------------------------------------------------------------------------------------------
+
 # In the /tmp directory, to convert the generated new.loda.cpp file to .dll, run command
     $ x86_64-w64-mingw32-g++ new.loda.cpp --shared --static -o ProService.dll  
   # Ignore the error, run the command again with the argument " -fpermissive "
