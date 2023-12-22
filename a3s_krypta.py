@@ -21,7 +21,7 @@ try:
     file = open(sys.argv[1], "rb")
     content = file.read()
 except:
-    print("Usage: .\A3S_krypta.py PAYLOAD_FILE")
+    print("Usage: .\A3S_krypta.py PAY_LOAD")
     sys.exit()
 
 
